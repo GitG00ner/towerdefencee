@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tower deffence</title>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            background: #444444;
+        }
+        canvas {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <button id="myButton">Play Music</button>
+    <label for="volumeSlider">Volume:</label>
+    <input type="range" id="volumeSlider" min="0" max="1" step="0.01" value="0.5">
+    <img id="gameImage" src="img/free.png" alt="Game Image" style="display:none;">
+    <img id="w1" src="img\w1.png" alt="Game Image" style="display:none;">
+    <img id="w2" src="img\w2.png" alt="Game Image" style="display:none;">
+    <img id="w3" src="img\w3.png" alt="Game Image" style="display:none;">
+    <img id="w4" src="img\w4.png" alt="Game Image" style="display:none;">
+    <img id="enemyImg" src="img\soldierred.png" alt="Game Image" style="display:none;">
+
+    <canvas id="gameCanvas"></canvas>
+    <script src="script\main.js"></script>
+</body>
+</html>
